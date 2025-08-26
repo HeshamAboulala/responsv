@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenr {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+}
+header {
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  .contenr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    h1 {
+      font-family: "Merriweather", serif;
+      text-transform: capitalize;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 400;
+    }
+    i {
+      font-size: 25px;
+    }
+  }
+}
+.hero-section {
+  width: 100%;
+  padding: 6rem 0;
+  background-image: url(./fcb14a161aa9547b4673c26e4bc92cdd.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contant {
+    width: 650px;
+    max-width: 80%;
+    height: 400px;
+    background-color: rgba(129, 193, 50, 0.306);
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+    }
+    h1 {
+      font-family: "Merriweather", serif;
+      font-size:clamp(40px,6vw,72px);
+      font-weight: 400;
+      line-height: 79.2px;
+      /* @media screen and (max-width:767px) {
+        font-size: 40px;
+      } */
+    }
+    a{
+      width: 170px;
+      padding: 0.8rem 0;
+      background-color: #81c132;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .box1{
+      width: 96px;
+      height: 96px;
+      border-top: 2px solid #ffffff;
+      border-right: 2px solid #ffffff;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+    .box2{
+      width: 96px;
+      height: 96px;
+      border-bottom: 2px solid #ffffff;
+      border-left: 2px solid #ffffff;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+    }
+  }
+}
+
